@@ -1,0 +1,12 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Garizao;Juan Diego;;;
+FN:Juan Diego Garizao
+ORG:SDI Packing
+TITLE:Asesor comercial
+TEL;TYPE=CELL,VOICE:+573044766034
+EMAIL;TYPE=WORK:info@suministrosindustrias.com
+URL:https://www.sdipacking.com
+ADR;TYPE=WORK:;Of. 1206 Jardín Central 2;Cra. 98 #18-96;Cali;Valle del Cauca;;Colombia
+NOTE:Outsourcing de personal in-house para empaque\, codificado y alistamiento.
+END:VCARD

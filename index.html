@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Juan Diego · SDI Packing</title>
+<meta name="description" content="Contacto directo con SDI Packing: WhatsApp, llamada, correo, página web y brochure.">
+<meta name="theme-color" content="#1F2A5A">
+<meta property="og:title" content="Juan Diego · SDI Packing">
+<meta property="og:description" content="Outsourcing de personal in-house para empaque, codificado y alistamiento. Cali, Colombia.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Una sola columna tipo "tarjeta digital": marca arriba, acciones apiladas, lema abajo. Look único (azul de marca). */
+  :root{
+    --navy:#1F2A5A; --ink:#0C1230; --paper:#F4F3EF; --kraft:#C8965F; --kraft-l:#DDB687;
+    --line:rgba(244,243,239,.16); --muted:rgba(244,243,239,.68);
+    --f-display:"Archivo","Arial Narrow",system-ui,sans-serif;
+    --f-body:"Manrope",system-ui,-apple-system,"Segoe UI",sans-serif;
+    color-scheme:dark;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{
+    min-height:100vh; background:var(--navy); color:var(--paper);
+    font:16px/1.5 var(--f-body);
+    background-image:radial-gradient(120% 60% at 50% -10%, #2C3A78 0%, transparent 60%);
+    padding-left:max(16px, env(safe-area-inset-left,0px));
+    padding-right:max(16px, env(safe-area-inset-right,0px));
+    padding-block:calc(28px + env(safe-area-inset-top,0px)) calc(28px + env(safe-area-inset-bottom,0px));
+  }
+  .wrap{max-width:440px; margin:0 auto; display:flex; flex-direction:column; gap:22px}
+  header{display:flex; flex-direction:column; align-items:center; text-align:center; gap:10px}
+  .logo{width:150px; height:auto}
+  h1{font:800 26px/1.1 var(--f-display); font-stretch:92%; margin:6px 0 0; letter-spacing:-.01em}
+  .role{font:700 12px/1 var(--f-body); letter-spacing:.14em; text-transform:uppercase; color:var(--kraft-l); margin:0}
+  .about{color:var(--muted); font-size:15px; margin:4px 0 0; max-width:34ch; text-wrap:balance}
+
+  .links{display:flex; flex-direction:column; gap:10px; margin:0; padding:0; list-style:none}
+  .btn{
+    display:flex; align-items:center; gap:14px; min-height:58px; padding:12px 16px;
+    border-radius:14px; text-decoration:none; color:var(--paper);
+    background:rgba(244,243,239,.07); border:1px solid var(--line);
+    transition:transform .15s ease, background .15s ease;
+  }
+  .btn:hover{background:rgba(244,243,239,.12)}
+  .btn:active{transform:scale(.98)}
+  .btn:focus-visible{outline:3px solid var(--kraft-l); outline-offset:2px}
+  .btn svg{width:24px; height:24px; flex:none; fill:none; stroke:currentColor; stroke-width:1.8; stroke-linecap:round; stroke-linejoin:round}
+  .btn b{display:block; font-weight:700; font-size:16px; line-height:1.2}
+  .btn small{display:block; color:var(--muted); font-size:13px; line-height:1.3}
+  .btn > span{flex:1; min-width:0}
+  .btn i{width:8px; height:8px; border-top:2px solid currentColor; border-right:2px solid currentColor; transform:rotate(45deg); opacity:.5; flex:none}
+  .btn--main{background:var(--kraft); color:var(--ink); border-color:transparent}
+  .btn--main:hover{background:var(--kraft-l)}
+  .btn--main small{color:rgba(12,18,48,.72)}
+  .btn--main svg.wa{fill:currentColor; stroke:none}
+
+  .group{font:700 11px/1 var(--f-body); letter-spacing:.16em; text-transform:uppercase; color:var(--muted); margin:8px 0 -2px 4px}
+
+  footer{text-align:center; display:flex; flex-direction:column; gap:6px; margin-top:6px}
+  .lema{font:900 30px/.86 var(--f-display); font-stretch:125%; font-variation-settings:"wdth" 125; letter-spacing:-.055em; margin:0}
+  .lema span{display:block}
+  .lema span{color:var(--kraft)}
+  .addr{color:var(--muted); font-size:13px; margin:0}
+  @media (prefers-reduced-motion:reduce){.btn{transition:none}}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <img class="logo" src="logo-sdi-white.png" alt="SDI Packing" width="150" height="98">
+    <h1>Juan Diego Garizao</h1>
+    <p class="role">Tu asesor comercial</p>
+    <p class="about">Ponemos un equipo de empaque, codificado y alistamiento dentro de tu planta. Pagas por producción, no por horas.</p>
+  </header>
+
+  <ul class="links">
+    <li><a class="btn btn--main" href="https://wa.me/573044766034?text=Hola%20Juan%20Diego%2C%20te%20escribo%20desde%20tu%20tarjeta%20de%20SDI%20Packing" target="_blank" rel="noopener">
+      <svg class="wa" viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9 3 3.4 8.6 3.4 15.6c0 2.2.6 4.4 1.7 6.3L3.3 29l7.3-1.9c1.8 1 3.9 1.5 5.9 1.5h.1c7 0 12.6-5.6 12.6-12.6 0-3.4-1.3-6.5-3.7-8.9A12.4 12.4 0 0 0 16 3Zm0 23.1c-1.9 0-3.7-.5-5.3-1.4l-.4-.2-4.3 1.1 1.2-4.2-.3-.4a10.4 10.4 0 0 1-1.6-5.5C5.3 9.8 10.1 5.1 16 5.1c2.8 0 5.5 1.1 7.5 3.1s3.1 4.6 3.1 7.5c0 5.8-4.8 10.4-10.6 10.4Zm5.8-7.8c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.5 8.5 0 0 1-4.3-3.7c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4s-1 1-1 2.5 1.1 2.9 1.2 3.1c.2.2 2.1 3.2 5.1 4.5 1.9.8 2.6.9 3.6.7.6-.1 1.9-.8 2.1-1.5.3-.7.3-1.4.2-1.5 0-.1-.3-.2-.6-.4Z"/></svg>
+      <span><b>Escríbeme por WhatsApp</b><small>+57 304 476 6034</small></span><i></i></a></li>
+    <li><a class="btn" href="tel:+573044766034">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>
+      <span><b>Llamar</b><small>+57 304 476 6034</small></span><i></i></a></li>
+    <li><a class="btn" href="mailto:info@suministrosindustrias.com?subject=Contacto%20desde%20tarjeta%20SDI%20Packing">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+      <span><b>Enviar correo</b><small>info@suministrosindustrias.com</small></span><i></i></a></li>
+
+    <li class="group">Conoce SDI Packing</li>
+    <li><a class="btn" href="https://www.sdipacking.com" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg>
+      <span><b>Ver página web</b><small>sdipacking.com</small></span><i></i></a></li>
+    <li><a class="btn" href="brochure.pdf" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/></svg>
+      <span><b>Ver brochure</b><small>Servicios, sectores y clientes (PDF)</small></span><i></i></a></li>
+
+    <li class="group">Guárdame</li>
+    <li><a class="btn" href="juan-diego-sdi-packing.vcf">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M19 8v6M16 11h6"/></svg>
+      <span><b>Guardar contacto</b><small>Agrégame a tu celular</small></span><i></i></a></li>
+    <li><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Carrera+98+%2318-96+Jard%C3%ADn+Central+2+Cali" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></svg>
+      <span><b>Cómo llegar</b><small>Jardín Central 2, Of. 1206 · Cali</small></span><i></i></a></li>
+  </ul>
+
+  <footer>
+    <p class="lema">Pides 1.000.<br>Entregamos <span>1.000.</span></p>
+    <p class="addr">SDI Packing · Cra. 98 #18-96, Of. 1206 · Cali, Colombia</p>
+  </footer>
+</main>
+</body>
+</html>
